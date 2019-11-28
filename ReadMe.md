@@ -28,7 +28,7 @@
 
 2. **What is the meaning of ‘fq’ and 'fl' parameter?**  
     The fl is the url field name which is same as the field name in upload .csv file. I did not see fq param in the params. 
-    <img src="img7.png" width=590/>
+    <img src="img7.png" width=590/>  
     From development docs, it shows the definition of fl and fq
     <img src="img8.png" width=590/>
 
