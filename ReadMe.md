@@ -1,7 +1,7 @@
 # week1_test
 
 ## Insert Api
-1. **How long does it take to insert one image and this image       can be searchable?**
+1. **How long does it take to insert one image and this image can be searchable?**  
     It is tried to insert four images that is loaded from internet, it takes about total 3 min and 56 sec to finish indexing. The average processing time is 1min.
     <img src="img1.png" width=890/>
 
@@ -63,7 +63,7 @@
 
 <br />
 
-2. **What is the approximate indexing time for a new image given a base set of 500,000 images? Does this time increase linearly?**
+2. **What is the approximate indexing time for a new image given a base set of 500,000 images? Does this time increase linearly?**  
 
 <br />
 
