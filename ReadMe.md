@@ -15,13 +15,13 @@
     <img src="img4.png" width=890/>
 
     <br />
-2. **Where can you get the application key for integrating a     new application?  Please paste the screenshot below**
+2. **Where can you get the application key for integrating a     new application?  Please paste the screenshot below**  
     In the new app, under integration -> Client-side Integration can see the app keys.
     <img src="img5.png" width=890/>
 
 ## Search Api
 
-1. **Can you paste a screenshot of you successfully get the response from the Postman given an image URL as the input using /uploadsearch?**  
+1. **Can you paste a screenshot of you successfully get the response from the Postman given an image URL as the input using /uploadsearch?**    
     <img src="img6.png" width=590/>
 
 <br />
