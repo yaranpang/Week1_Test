@@ -82,6 +82,30 @@
     Yes. Can select more than one data centers.
     <img src="img16.png" width=890/>
 
+## Visual Search Integration
+
+1. **Is integration of  /search and /uploadsearch using Javascript feasible?**
+
+<br />
+
+2. **What is the throughput our visual search system can support? Does this scale horizontally?**
+
+<br />
+
+3. **Does /uploadsearch support .ai files? If not, what is the error message?**  
+    It does not support .ai file, the error message shows file format does not support.
+
+<br />
+
+4. **Which API is the fastest, which is the slowest, among /search, /uploadsearch, /discoversearch? Can you explain why?**  
+    /search is the fastest. It is fast since when the image stored in database it provides it associates name and image is already in the database.
+    /uploadsearch is the slowest. It needs to first indexing the image to find the relevant information then do the computation to find the score above threshold files. 
+
+
+
+
+
+
 
 
 
