@@ -35,18 +35,18 @@
 <br />
 
 3. **What is the image size/resolution requirement/limitation for upload search?**  
-    From the development document, the image size is 40MP, it is suggested to be around 1024 * 1024 pixels.
-    <img src="img9.png" width=890/>
+    From the development document, the image size is 10MP, it is suggested to be around 1024 * 1024 pixels
+    <img src="img9.png" width=590/>
     <img src="img10.png" width=890/>
 <br />
 
 4.  **What does the similarity score mean?**    
-    The similarity score suggest how many percentage of similarity of the search image with images in the database with category or other metadata defined in the schema.(not sure)
+    The similarity score suggest how many percentage of similarity of the search image with images in the database with category or other metadata defined in the schema.
 
 <br />
 
 5. **What’re results will you return if you don’t find anything similar in our database?**  
-    <img src="img11.png" width=890/>
+    <img src="img11.png" width=590/>
     <img src="img12.png" width=890/>
 <br/>
 
@@ -64,11 +64,11 @@
 <br />
 
 2. **What is the approximate indexing time for a new image given a base set of 500,000 images? Does this time increase linearly?**    
-
+Not able to do experiment on this but from understanding the way system works, the priority is given to large size image file. Performance is auto scaled if more resouce is needed to process large amount of image files.
 <br />
 
 3. **Which are the mandatory fields of uploading images for furniture domain? What about fashion domain?**   
-    Image name image url and category(did not find difference from metadata definition)
+    Image Id(im_id), image url(im_url) and category(did not find difference from metadata definition). Category field is discarded with increasing accuracy of algorithm. Features extracted from image are more accurate to define image compare to previous version.
 
 <br />
 
@@ -85,11 +85,12 @@
 ## Visual Search Integration
 
 1. **Is integration of  /search and /uploadsearch using Javascript feasible?**
+    visenze javascript sdk supports it.
 
 <br />
 
 2. **What is the throughput our visual search system can support? Does this scale horizontally?**
-
+The througput of search system can be adjusted based on the speed image provider can support. It can be scaled when the amount of images that needed to be searched is large(not sure).
 <br />
 
 3. **Does /uploadsearch support .ai files? If not, what is the error message?**  
@@ -98,8 +99,9 @@
 <br />
 
 4. **Which API is the fastest, which is the slowest, among /search, /uploadsearch, /discoversearch? Can you explain why?**  
-    /search is the fastest. It is fast since when the image stored in database it provides it associates name and image is already in the database.
-    /uploadsearch is the slowest. It needs to first indexing the image to find the relevant information then do the computation to find the score above threshold files. 
+    /search is the fastest. It is fast since it only search the image from the database that have been indexed.
+    /discovrsearch is the slowest. It needs to first indexing the image to find features and categorize all the features. Each feature categorization will show the results that has similar features.
+
 
 
 
