@@ -84,7 +84,7 @@ Not able to do experiment on this but from understanding the way system works, t
 
 ## Visual Search Integration
 
-1. **Is integration of  /search and /uploadsearch using Javascript feasible?**
+1. **Is integration of  /search and /uploadsearch using Javascript feasible?**  
     visenze javascript sdk supports it.
 
 <br />
