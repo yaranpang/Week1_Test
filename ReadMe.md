@@ -102,6 +102,45 @@ The througput of search system can be adjusted based on the speed image provider
     /search is the fastest. It is fast since it only search the image from the database that have been indexed.
     /discovrsearch is the slowest. It needs to first indexing the image to find features and categorize all the features. Each feature categorization will show the results that has similar features.
 
+**other**
+1. **What are the metrics we currently use to evaluate our visual search result?**
+<img src="img17.png" width=890/>
+
+2. **How do you create an experiment in ViSenze’s search evaluation system? Please paste the screenshot below.**
+<img src="img18.png" width=890/>
+
+## Tagging API
+1. **Can you paste a screenshot of you successfully get the response from the Postman given an image URL as the input?**
+<img src="img19.png" width=890/>
+
+2. **For the image tagging response, what does the confidence score mean?** 
+The score means the confidence that the answers matches user queries
+
+3. **What are the tag group we currently support in image Tagging API?**
+fashion_attributes, fashion_style, fashion_occasion, gender
+
+4. **Can you list all the attribute value we can return for 'neckline'?**
+
+5. **How do you get tagging results on the dashboard? Please paste the screenshot below.**
+<img src="img20.png" width=890/>
+
+6. **How do you create an experiment in ViSenze’s recognition evaluation system? Please paste the screenshot below.**
+<img src="img21.png" width=890/>
+
+## ProductCat Api
+1. **What are the differences between ProductCat database and a Visual Search client’s database?**
+2. **What is the meaning of “country” parameter?**
+<img src="img22.png" width=890/>
+
+3. **How does ProductCat API track user actions?**
+It uses user identifier to track.
+
+4. **Try “Egami” app from iOS store or “Egami demo” from Google Play. Please paste a screenshot of successfully taking a picture and search from the app.**
+<img src="img23.png" width=890/>
+
+
+
+
 
 
 
