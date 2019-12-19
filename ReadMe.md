@@ -104,7 +104,7 @@ The througput of search system can be adjusted based on the speed image provider
 
 4. **Which API is the fastest, which is the slowest, among /search, /uploadsearch, /discoversearch? Can you explain why?**    
     /search is the fastest. It is fast since it only search the image from the database that have been indexed.
-    /discovrsearch is the slowest. It needs to first indexing the image to find features and categorize all the features. Each feature categorization will show the results that has similar features.
+    /discoversearch is the slowest. It needs to first indexing the image to find features and categorize all the features. Each feature categorization will show the results that has similar features.
 
 <br/>
 
