@@ -19,6 +19,8 @@
     In the new app, under integration -> Client-side Integration can see the app keys.
     <img src="img5.png" width=890/>
 
+<br/>
+
 ## Search Api
 
 1. **Can you paste a screenshot of you successfully get the response from the Postman given an image URL as the input using /uploadsearch?**    
@@ -57,6 +59,7 @@
 7. **Which parameters to use when a user wants to filter by price? Please give an example parameter?**  
     <img src="img13.png" width=890/>
     <img src="img14.png" width=890/>
+<br/>
 
 ## Image database ingestion
 1. **If the customer shares their images with ViSenze, how does ViSenze handle the data security?**  
@@ -139,7 +142,7 @@ tags: [{"tag:"","score:"""}], box:[], "tag_group": "fashion_attribute";
 <br/>
 
 ## ProductCat Api
-1. **What are the differences between ProductCat database and a Visual Search client’s database?**
+1. **What are the differences between ProductCat database and a Visual Search client’s database?**  
 Productcat database data is not paying for search, visual search client's database is enterprise customers that pay for search.  
 <br />
 
@@ -157,15 +160,15 @@ It uses user identifier to track.
 
 
 ## Others
-1. **Could you please describe what is the roadmap for your current team (for example, new 3 feature coming out) and what is the impact for the product or the business based on your understanding?  (maximum 100 words)**
+1. **Could you please describe what is the roadmap for your current team (for example, new 3 feature coming out) and what is the impact for the product or the business based on your understanding?  (maximum 100 words)**  
 New fields in the database, new roles and new options for setting mode. It is customer facing platform. Customers can use the platform to create application and use visearch api.
 <br/>
 
-2. **Could you please describe what are the key challenges we are faced with given your role in your team?  (maximum 100 words)**
+2. **Could you please describe what are the key challenges we are faced with given your role in your team?  (maximum 100 words)**  
 The features that are needed to be developed are planned and refactoring of application is along with development. The time needed to be allocated for both feature development and refactoring.
 <br/>
 
-3. **Could you please describe what are the things you feel that we need to improve immediately compared to your previous experience? (maximum 100 words)**
+3. **Could you please describe what are the things you feel that we need to improve immediately compared to your previous experience? (maximum 100 words)**  
 It is good if the new technologies are used in the project that will increase productivity of work.
 
 
