@@ -85,6 +85,7 @@ Not able to do experiment on this but from understanding the way system works, t
 5. **Can an image database be deployed to more than 1 data centers?**    
     Yes. Can select more than one data centers.
     <img src="img16.png" width=890/>
+<br />
 
 ## Visual Search Integration
 
