@@ -111,21 +111,22 @@ The througput of search system can be adjusted based on the speed image provider
 
 2. **How do you create an experiment in ViSenze’s search evaluation system? Please paste the screenshot below.**
 <img src="img18.png" width=890/>
+<br/>
 
 ## Tagging API
 1. **Can you paste a screenshot of you successfully get the response from the Postman given an image URL as the input?**
 <img src="img19.png" width=890/>
 <br/>
 
-2. **For the image tagging response, what does the confidence score mean?** 
+2. **For the image tagging response, what does the confidence score mean?**  
 The score means the confidence that the answers match user queries
 <br/>
 
-3. **What are the tag group we currently support in image Tagging API?**
+3. **What are the tag group we currently support in image Tagging API?**  
 fashion_attributes, fashion_style, fashion_occasion, gender
 <br/>
 
-4. **Can you list all the attribute value we can return for 'neckline'?**
+4. **Can you list all the attribute value we can return for 'neckline'?**  
 tags: [{"tag:"","score:"""}], box:[], "tag_group": "fashion_attribute";
 <br/>
 
@@ -146,7 +147,7 @@ Productcat database data is not paying for search, visual search client's databa
 <img src="img22.png" width=890/>
 <br />
 
-3. **How does ProductCat API track user actions?**
+3. **How does ProductCat API track user actions?**  
 It uses user identifier to track.
 <br/>
 
